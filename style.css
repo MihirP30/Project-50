@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://s3.amazonaws.com/noupe/2009/10/pattern-34.jpg);
+    background-size: 100% 100%;
+}
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    background-color:black;
+    color: white;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    border:solid;
+    background-color:rgb(220,220,220);
+}
+.item{
+    background-color: cornsilk;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:solid;
+    border-radius: 15px;
+}
+.heading{
+    display:flex;
+    justify-content:center;
+    color:white;
+}
+.historyanddescription{
+    display:flex;
+    justify-content:center;
+    color:white;
+}
